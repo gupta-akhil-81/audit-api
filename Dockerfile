@@ -2,7 +2,7 @@ FROM ibmjava:8-jre-alpine
 
 EXPOSE 8080
 
-MAINTAINER akhil.gupta16@wipro.com
+MAINTAINER Akhil Gupta
 
 ARG JAR_FILE=target/audit-message-producer-0.0.1-jar-with-dependencies.jar
 
