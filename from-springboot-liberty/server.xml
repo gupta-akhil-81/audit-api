@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server description="new server">
+
+    <featureManager>
+		<feature>springBoot-2.0</feature>
+		<feature>servlet-3.1</feature>
+    </featureManager>
+	
+
+	<springBootApplication location="app.jar" />
+	
+	<httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="9090" />
+    
+</server>
